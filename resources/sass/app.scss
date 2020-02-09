@@ -1,0 +1,52 @@
+@import '_variables';
+
+// Bulma
+@import '~bulma/sass/utilities/_all';
+@import '~bulma/sass/base/_all';
+
+@import '~bulma/sass/layout/section';
+
+@import '~bulma/sass/elements/button';
+@import '~bulma/sass/elements/container';
+@import '~bulma/sass/elements/form';
+@import '~bulma/sass/elements/icon';
+@import '~bulma/sass/elements/other';
+@import '~bulma/sass/elements/table';
+@import '~bulma/sass/elements/title';
+
+@import '~bulma/sass/components/breadcrumb';
+@import '~bulma/sass/components/dropdown';
+@import '~bulma/sass/components/level';
+@import '~bulma/sass/components/message';
+@import '~bulma/sass/components/navbar';
+@import '~bulma/sass/components/pagination';
+
+// Buefy
+@import '~buefy/src/scss/utils/_all';
+
+@import '~buefy/src/scss/components/_datepicker';
+@import '~buefy/src/scss/components/_dropdown';
+@import '~buefy/src/scss/components/_form';
+@import '~buefy/src/scss/components/_icon';
+@import '~buefy/src/scss/components/_message';
+@import '~buefy/src/scss/components/_notices';
+@import '~buefy/src/scss/components/_pagination';
+@import '~buefy/src/scss/components/_radio';
+@import '~buefy/src/scss/components/_select';
+@import '~buefy/src/scss/components/_table';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+
+a.navbar-burger:hover {
+  background-color: $navbar-item-hover-background-color;
+  color: $navbar-item-hover-color;
+}
+
+.navbar {
+  .router-link-exact-active {
+    background-color: $navbar-item-hover-background-color;
+    text-decoration: none;
+  }
+}

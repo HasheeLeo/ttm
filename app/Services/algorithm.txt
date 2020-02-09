@@ -1,0 +1,18 @@
+Written by: Hashir Ahmad
+
+Repeat until no more sections:
+    1: Get a section, its teaching faculty, and its courses
+    2: Compute the total credit hours for this section
+    3: Compute the classes per week for this section (total credits / no of weekdays)
+
+    Repeat until no more credit hours:
+        4: Select a faculty with an unallocated course
+        5: If the current room is not free on the given day and time, check the next time
+           slot. If it is not free on the whole day, check the next room.
+        6: Check if the section and faculty is also free on this day and time. If not,
+           check the next time slot. If they are not free on the whole day, check
+           the next room.
+        7: Reserve the free classroom with the given day, time and faculty
+        8: If we have allocated classes = classes per week, go to the next day. If we are
+           on the last day (Friday), keep allocating (generally lesser classes would
+           be allocated on Friday because of ceil() on classes per week calculation).

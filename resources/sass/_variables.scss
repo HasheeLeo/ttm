@@ -1,0 +1,31 @@
+// Brand colors
+$primary:           #7851A9;
+$primary-dark:      #603694;
+
+$success:           #6ED05A;
+
+$link:              #8281CA;
+$link-focus-border: #403F99;
+
+$grey:              #A8A8A8;
+
+// Buttons
+$button-hover-border-color: $primary-dark;
+$button-focus-box-shadow-size: none;
+
+// Fonts
+$family-sans-serif: 'Roboto', sans-serif;
+
+// Inputs
+$input-hover-border-color: $primary-dark;
+$input-focus-box-shadow-size: none;
+$input-focus-border-color: $primary-dark;
+
+// Navbar
+$navbar-background-color: $primary;
+$navbar-box-shadow-color: $grey;
+$navbar-box-shadow-size: 0 2px 4px 2px;
+$navbar-height: 3.5rem;
+$navbar-item-color: #FFF;
+$navbar-item-hover-background-color: $primary-dark;
+$navbar-item-hover-color: #FFF;
